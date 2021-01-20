@@ -1,0 +1,87 @@
+
+@font-face{
+    font-family:"Blazed";
+    src: url('Blazed.ttf');
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Blazed";
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+
+padding: 16px;
+
+}
+
+p{
+    font-family: "Blazed";
+}
+
+img {
+    width: 550px;
+}
+
+li:hover {
+background-image: url("IMAGES/fire3.jpg");
+}
+
+.navlinks {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.imagebanner {
+    background-image: url("images/americanflag.jpg");
+    padding: 50px 0;
+    background-size: contain;
+    color: blueviolet;
+}
+
+.introduction {
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+    }
+
+    .car {
+        width: 33%;
+        display: inline-block;
+        padding: 50px 0;
+        vertical-align: top;
+    }
+
+}
